@@ -19,6 +19,12 @@ I got the idea for Parsect from [Parsec](http://www.haskell.org/haskellwiki/Pars
 
 ## Getting Started
 
+### ES module for Browsers and Deno
+
+```
+import { Parsect } from "https://code4fukui.github.io/Parsect/Parsect.js";
+```
+
 ### `string` Parser Constructor
 
 Parsect has some functions that creates a parser. `string` function is one of them. `string` take a string and return new parser. This parser parses the string and return it as a raw result value. For example, if you want to parse a string "apple", use *string* function as follows:
